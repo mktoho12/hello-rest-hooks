@@ -47,6 +47,9 @@ const Home: NextPage = () => {
 
         <h2>Dog API</h2>
         <div><a href="https://dog.ceo/dog-api/">https://dog.ceo/dog-api/</a></div>
+
+        <h2>Repository</h2>
+        <div><a href="https://github.com/mktoho12/hello-rest-hooks">https://github.com/mktoho12/hello-rest-hooks</a></div>
       </main>
     </>
   )
