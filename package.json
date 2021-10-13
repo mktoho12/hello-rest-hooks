@@ -1,7 +1,17 @@
 {
   "name": "hello-rest-hooks",
   "version": "0.1.0",
+  "description": "Try using Rest Hooks",
+  "author": {
+    "name": "mktoho",
+    "email": "mk@mktoho.org"
+  },
+  "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mktoho12/hello-rest-hooks.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,13 +19,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rest-hooks/hooks": "^2.1.0",
+    "@rest-hooks/rest": "^3.0.1",
+    "@rest-hooks/test": "^7.1.0",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "rest-hooks": "^6.1.3",
+    "sharp": "^0.29.1"
   },
   "devDependencies": {
     "@types/react": "17.0.29",
-    "eslint": "8.0.0",
+    "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "typescript": "4.4.4"
   }
