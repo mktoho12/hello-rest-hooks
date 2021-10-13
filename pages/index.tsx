@@ -12,7 +12,10 @@ const Home: NextPage = () => {
   const [dog, setDog] = useState<Dog>('')
 
   useEffect(() => {
-    breedList().then(bs => setBreeds(bs))
+    breedList().then(bs => {
+      setBreeds(bs)
+      setBreed('pembroke')
+    })
   }, [])
 
   useEffect(() => {
